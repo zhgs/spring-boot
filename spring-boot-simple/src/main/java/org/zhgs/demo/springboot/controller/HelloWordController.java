@@ -9,7 +9,7 @@ public class HelloWordController {
 
     @RequestMapping("/hello")
     public String index(){
-        return "hello spring boot!";
+        return "hello spring boot!66677777";
     }
 }
 
