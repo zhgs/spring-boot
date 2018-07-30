@@ -18,7 +18,7 @@ public class JdbcHelloWordController {
     public List<Map<String, Object>> index(){
 
 
-        List<Map<String, Object>> resultList =  jdbcTemplate.queryForList("select * from test_users");
+        List<Map<String, Object>> resultList =  jdbcTemplate.queryForList("select * from user");
 
 
         return resultList;
