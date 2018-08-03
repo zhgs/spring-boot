@@ -1,15 +1,13 @@
-package org.zhgs.demo.springboot.mapper;
+package org.zhgs.demo.springboot.mapper.master;
 
-import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Component;
 import org.zhgs.demo.springboot.domain.User;
 
 import java.util.List;
 
-@Mapper
 @Component
-public interface UserMapper {
+public interface UserMapperMaster {
 
     @Select("select * from user")
     List<User> getAllUsers();
